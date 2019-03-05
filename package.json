@@ -1,0 +1,26 @@
+{
+  "name": "parcel-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "examples/src/index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "animejs": "3.0.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "crocks": "0.11.1",
+    "jest-matcher-utils": "23.6.0",
+    "react": "16.5.1",
+    "react-dom": "16.5.1"
+  },
+  "devDependencies": {
+    "@types/animejs": "2.0.1",
+    "@types/jest-matcher-utils": "21.0.1",
+    "@types/ramda": "0.25.38",
+    "@types/react": "16.4.14",
+    "@types/react-dom": "16.0.8",
+    "parcel-bundler": "^1.6.1"
+  }
+}
